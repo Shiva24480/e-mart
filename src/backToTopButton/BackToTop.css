@@ -1,0 +1,25 @@
+.top{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.top button{
+    border-radius: 5px;
+    color: rgb(216, 203, 203);
+    font-size: 30px;
+    background-color: rgb(214, 109, 127);
+    /* width: 17%; */
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.top button:hover{
+    color: black;
+    transform: scale(1.03);
+}

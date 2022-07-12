@@ -1,0 +1,24 @@
+.op{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.op-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.op-icon{
+    color: rgb(31, 228, 31);
+}
+
+.op-container p{
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
